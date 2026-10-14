@@ -1,0 +1,41 @@
+# JD vocabulary. Each term: category, aliases (matched in JD and resume), related (resume terms that
+# are only RELATED evidence: never counted as direct experience, always flagged for review).
+terms:
+  Core Java:            {category: technical, aliases: ["core java", java, jdk]}
+  Multithreading:       {category: technical, aliases: [multithreading, multi-threading, concurrency, "java threads"]}
+  Data Structures:      {category: technical, aliases: ["data structures", "data structure"]}
+  Algorithms:           {category: technical, aliases: [algorithms, algorithm]}
+  Annotations:          {category: technical, aliases: [annotations, annotation]}
+  Generics:             {category: technical, aliases: [generics]}
+  Spring Framework:     {category: tool, aliases: [spring, "spring framework"], cap: synonym}
+  Dependency Injection: {category: technical, aliases: ["dependency injection", guice, "google guice"], related: ["Spring Boot"]}
+  AOP:                  {category: technical, aliases: [aop, "aspect oriented programming", "aspect-oriented programming"]}
+  Bean Validation:      {category: technical, aliases: ["bean validation", "java bean validation", "data validation"]}
+  Caching:              {category: technical, aliases: ["in-memory caching", "object caching", "in-memory java object caching"], related: ["Redis", "caching"]}
+  MongoDB / NoSQL:      {category: tool, aliases: [mongodb, mongo, nosql]}
+  XML Handling:         {category: technical, aliases: [xml, jaxb]}
+  Messaging (JMS):      {category: technical, aliases: [jms, "java message service", messaging, activemq, rabbitmq, kafka]}
+  ORM:                  {category: technical, aliases: [orm, hibernate, jpa, ibatis, mybatis, "object relational"]}
+  JSON:                 {category: technical, aliases: [json, jackson, gson]}
+  Batch / Scheduling:   {category: tool, aliases: ["spring batch", quartz, "batch processing"]}
+  Unit Testing:         {category: tool, aliases: [junit, jmock, mockito, "unit testing", "unit tests"]}
+  Performance Tuning:   {category: technical, aliases: ["performance tuning", "performance optimization", "performance optimisation"], related: ["SQL Optimization"]}
+  Troubleshooting:      {category: technical, aliases: [troubleshooting, debugging]}
+  Deployment:           {category: technical, aliases: [deployment, deploying, "ci/cd"]}
+  Linux/Unix:           {category: tool, aliases: [linux, unix]}
+  SDLC:                 {category: technical, aliases: [sdlc, "software development life cycle", "software development lifecycle"]}
+  Agile:                {category: technical, aliases: [agile, scrum, kanban]}
+  OOAD:                 {category: technical, aliases: [ooad, "object oriented analysis", "object-oriented analysis", "object oriented design"], related: ["Object-Oriented Programming (OOP)"]}
+  UML:                  {category: technical, aliases: [uml]}
+  TDD:                  {category: technical, aliases: [tdd, "test driven development", "test-driven development"]}
+  DDD:                  {category: technical, aliases: [ddd, "domain driven design", "domain-driven design"]}
+  Reusable Libraries:   {category: technical, aliases: ["common services", "shared libraries", "reusable libraries", toolkits]}
+  Microservices:        {category: technical, aliases: [microservice, microservices, "micro services"]}
+  Docker / Containers:  {category: tool, aliases: [docker, dockers, containers, containerization, kubernetes]}
+  AWS:                  {category: tool, aliases: [aws, "amazon web services"]}
+  Google Cloud:         {category: tool, aliases: ["google cloud", gcp]}
+  Communication:        {category: soft, aliases: [communication]}
+  Time Management:      {category: soft, aliases: ["time-management", "time management", "manage schedules", prioritize]}
+  Decision Making:      {category: soft, aliases: ["decision-making", "decision making"]}
+  Task Organization:    {category: soft, aliases: ["task organization"]}
+stop_candidates: [data, libraries, experience, knowledge, ability, skills, expertise, hands, standard, strong, basic, other, related, field, degree, tight, fixed, deadlines, solutions, design, development]

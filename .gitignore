@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Offline package cache (large, rebuilt by install_offline.py download)
+vendor/wheels/
+
+# Personal data: your resumes, generated resumes, session history
+data/master/*
+!data/master/.gitkeep
+data/db/*
+!data/db/.gitkeep
+output/*
+!output/.gitkeep
+*.docx
+*.pdf
+
+# Streamlit (keep config.toml, ignore secrets)
+.streamlit/secrets.toml
+
+# Word / LibreOffice temp and lock files
+~$*
+.~lock.*#
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,22 @@
+Job Overview
+Job Description
+
+* The Applications Development Intermediate Programmer Analyst is an intermediate level position responsible for participation in the establishment and implementation of new or revised application systems and programs in coordination with the Technology team. The overall objective of this role is to contribute to applications systems analysis and programming activities.
+
+
+Required Qualifications:
+
+* Bachelor’s degree in Computer Science, Information Technology, or related field preferred.
+* Experience in Core Java, multithreading, data structures, algorithms, Annotations, Generics
+* Dependency Injection using Spring/Google Guice, AOP, Data/Java Bean validation, in-memory java object caching,
+* NoSQL DB handling in java specifically MongoDB, XML and document handling in Java, Messaging JMS, ORM in Java (Hibernate/ iBatis etc) , Json – Formats and Parsers, Batch/Scheduling frameworks ( Spring Batch, Quartz ), Unit testing – Junit, jmock/mockito.
+* Expertise in design, development, performance tuning, troubleshooting and deployment.
+
+* Hands on knowledge of Linux/unix
+* Familiar with standard SDLC and Agile processes, OOAD, UML, TDD, DDD.
+* Experience in writing common services/libraries/toolkits that are used by other applications
+
+* Experience in Micro Services, Containers such as Dockers, Cloud platforms like AWS, Google Cloud.
+* Ability to prioritize and manage schedules under tight, fixed deadlines
+* Ability to produce professional, technically-sound solutions.
+* Strong writing, communication, time-management, decision-making, and basic task organization skills.

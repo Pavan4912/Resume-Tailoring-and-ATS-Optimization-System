@@ -1,0 +1,9 @@
+# Runtime dependencies (pinned). Install procedure: see README.md
+python-docx==1.1.2
+lxml==5.3.0
+PyMuPDF==1.24.11
+spacy==3.7.5
+PyYAML==6.0.2
+rapidfuzz==3.10.0
+streamlit==1.39.0
+pyarrow==17.0.0

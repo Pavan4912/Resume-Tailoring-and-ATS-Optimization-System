@@ -1,0 +1,22 @@
+# Paths are relative to the project root unless absolute.
+paths:
+  master_dir: data/master
+  db_path: data/db/sessions.sqlite
+  output_dir: output
+limits:
+  max_upload_mb: 10
+  max_jd_chars: 50000
+llm:
+  enabled: false          # core workflow never requires an LLM
+  provider: ollama        # ollama | llamacpp (local only)
+  host: http://127.0.0.1:11434
+  model: ""               # set only if already pulled locally
+pdf_export:
+  enabled: true
+  # Leave empty to auto-detect. Windows default: C:\Program Files\LibreOffice\program\soffice.exe
+  soffice_path: ""
+  timeout_seconds: 90
+nlp:
+  spacy_model: en_core_web_sm
+privacy:
+  telemetry: false

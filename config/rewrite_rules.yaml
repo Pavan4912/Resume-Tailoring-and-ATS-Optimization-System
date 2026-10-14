@@ -1,0 +1,9 @@
+# Optional wording rules. A rule only fires when the JD contains the trigger requirement AND the
+# master already contains the 'find' text. Every rule produces a REVIEW-REQUIRED proposal.
+# allowed_words lists the only new words the rule may introduce (checked by the grounding validator).
+rules:
+  - trigger: Performance Tuning
+    find: "Optimized SQL queries"
+    replace: "Performance-tuned SQL queries"
+    allowed_words: [performance, tuned]
+    reason: "JD asks for performance tuning; the master says SQL queries were optimized."

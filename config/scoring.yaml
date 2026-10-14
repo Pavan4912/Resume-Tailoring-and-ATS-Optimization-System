@@ -1,0 +1,19 @@
+# Internal compatibility estimate. NOT a commercial ATS score.
+weights:            # must sum to 100
+  keyword_coverage: 35
+  skills_alignment: 25
+  experience_alignment: 20
+  structure_parsing: 10
+  clarity_terminology: 10
+requirement_weights:
+  mandatory: 1.0
+  preferred: 0.5
+  optional: 0.2
+evidence_strength:  # multiplier on a requirement's credit
+  direct: 1.0       # exact skill/tool named in a bullet or skills section
+  listed: 0.7       # named only in skills/summary, never shown in a bullet or project
+  synonym: 0.85     # recognised alias or equivalent term
+  related: 0.5      # related experience, flagged for review
+  none: 0.0
+stuffing:
+  max_term_repetitions: 4
